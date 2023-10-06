@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const kCardMargin = 4.0;
-const kPaneWidth = 204.0;
+const kPaneWidth = 232.0;
 const kPagePadding = 24.0;
 const kCardSpacing = 16.0;
 const kSearchBarWidth = 424.0 - 2 * kCardMargin;

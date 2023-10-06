@@ -141,7 +141,7 @@ class _AppCardBody extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(
-          height: kIconSize,
+          height: kIconSize + 4,
           child: Align(
             alignment: Alignment.bottomLeft,
             child: title,

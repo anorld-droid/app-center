@@ -324,7 +324,7 @@ class _CategoryList extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverGrid.count(
       mainAxisSpacing: kCardSpacing,
-      crossAxisSpacing: kCardSpacing,
+      crossAxisSpacing: kCardSpacing - 4,
       childAspectRatio: 6,
       crossAxisCount: ResponsiveLayout.of(context).snapInfoColumnCount,
       children: SnapCategoryEnum.values

@@ -20,7 +20,7 @@ import '/snapd.dart';
 import '/widgets.dart';
 
 const _kPrimaryButtonMaxWidth = 136.0;
-const _kChannelDropdownWidth = 220.0;
+const _kChannelDropdownWidth = 248.0;
 
 typedef SnapInfo = ({String label, Widget value});
 
